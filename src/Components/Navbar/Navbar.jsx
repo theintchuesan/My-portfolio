@@ -5,24 +5,23 @@ const Navbar = () => {
 
   const scrollToSection = (id) => {
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
-    setMenuOpen(false) // close menu after click
+    setMenuOpen(false)
   }
 
   return (
-    <nav className="w-full text-white flex items-center justify-between px-6 md:px-20 py-4">
+    <nav className="w-full text-white flex items-center justify-between px-6 md:px-20 py-4 relative">
 
-      {/* Logo */}
       <span className="text-xl font-bold">Portfolio</span>
 
-      {/* Desktop Menu */}
+      {/* Desktop */}
       <ul className="hidden md:flex gap-10 text-lg font-semibold cursor-pointer">
-        <li onClick={() => scrollToSection('about')} className="hover:text-blue-500 transition">About</li>
-        <li onClick={() => scrollToSection('experience')} className="hover:text-blue-500 transition">Experience</li>
-        <li onClick={() => scrollToSection('projects')} className="hover:text-blue-500 transition">Projects</li>
-        <li onClick={() => scrollToSection('contact')} className="hover:text-blue-500 transition">Contact</li>
+        <li onClick={() => scrollToSection('about')} className="hover:text-blue-500">About</li>
+        <li onClick={() => scrollToSection('experience')} className="hover:text-blue-500">Experience</li>
+        <li onClick={() => scrollToSection('projects')} className="hover:text-blue-500">Projects</li>
+        <li onClick={() => scrollToSection('contact')} className="hover:text-blue-500">Contact</li>
       </ul>
 
-      {/* Hamburger Button (Mobile) */}
+      {/* Mobile Button */}
       <div className="md:hidden flex flex-col gap-1 cursor-pointer" onClick={() => setMenuOpen(!menuOpen)}>
         <span className="w-6 h-0.5 bg-white"></span>
         <span className="w-6 h-0.5 bg-white"></span>
@@ -31,14 +30,13 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <ul className="absolute top-16 left-0 w-full bg-black text-white flex flex-col items-center gap-6 py-6 text-lg font-semibold md:hidden">
-          <li onClick={() => scrollToSection('about')} className="hover:text-blue-500 transition">About</li>
-          <li onClick={() => scrollToSection('experience')} className="hover:text-blue-500 transition">Experience</li>
-          <li onClick={() => scrollToSection('projects')} className="hover:text-blue-500 transition">Projects</li>
-          <li onClick={() => scrollToSection('contact')} className="hover:text-blue-500 transition">Contact</li>
+        <ul className="absolute top-16 left-0 right-0 bg-black flex flex-col items-center gap-6 py-6 text-lg font-semibold md:hidden">
+          <li onClick={() => scrollToSection('about')}>About</li>
+          <li onClick={() => scrollToSection('experience')}>Experience</li>
+          <li onClick={() => scrollToSection('projects')}>Projects</li>
+          <li onClick={() => scrollToSection('contact')}>Contact</li>
         </ul>
       )}
-      
     </nav>
   )
 }

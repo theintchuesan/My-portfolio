@@ -3,32 +3,28 @@ import img from '../../assets/gg.jpg'
 
 const Home = () => {
   return (
-    
-    <div className="text-white flex w-full items-start p-10 md:p-20">
-  
-  {/* LEFT */}
-  <div className="w-1/2 md:pt-10">
-    <h1 className="text-xl md:text-6xl font-bold leading-normal tracking-tighter">
-      hello i am frontend developer
-    </h1>
+    <div className="text-white flex flex-col md:flex-row w-full items-center p-6 md:p-20 gap-10">
 
-    <p className="text-sm md:text-2xl tracking-tight">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-    </p>
+      <div className="w-full md:w-1/2">
+        <h1 className="text-2xl md:text-6xl font-bold">
+          hello i am frontend developer
+        </h1>
 
-    <button className="mt-5 text-white py-2 px-4 text-sm md:text-lg hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
-      Contact Me
-    </button>
-  </div>
+        <p className="text-sm md:text-2xl mt-4">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
 
-  {/* RIGHT */}
-  <div className="w-1/2 flex justify-end">
-    <img className="w-3/4 object-cover" src={img} alt="" />
-  </div>
+        <button className="mt-5 py-2 px-4 rounded-3xl bg-[#465697] hover:scale-105 duration-300">
+          Contact Me
+        </button>
+      </div>
 
-</div>
-  );
-  
+      <div className="w-full md:w-1/2 flex justify-center">
+        <img className="w-2/3 md:w-3/4 object-cover" src={img} alt="" />
+      </div>
+
+    </div>
+  )
 }
 
 export default Home
