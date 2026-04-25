@@ -9,7 +9,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="w-full text-white flex items-center justify-between px-6 md:px-20 py-4 relative">
+    <nav className="w-full bg-[#1e063c] text-white flex items-center justify-between px-6 md:px-20 py-4 relative">
 
       <span className="text-xl font-bold">Portfolio</span>
 

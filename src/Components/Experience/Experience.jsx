@@ -2,12 +2,15 @@ import React from 'react'
 import { FaReact, FaHtml5, FaCss3Alt, FaJs, FaNodeJs, FaJava, FaDocker, FaGithub, FaAmazon } from 'react-icons/fa'
 import { SiExpress, SiC, SiKotlin, SiMongodb, SiMysql, SiPostgresql, SiSqlite, SiTensorflow, SiPytorch, SiAndroidstudio, SiNetflix } from 'react-icons/si'
 import { FcGoogle } from 'react-icons/fc'
+import  SectionWrapper  from '../SectionWrapper'
 
 const Experience = () => {
   return (
     <div id='experience' className='w-full text-white flex flex-col gap-10 p-6 md:p-10'>
 
-      <h1 className='text-3xl font-bold'>Experience</h1>
+      <SectionWrapper>
+        <h2 className="section-title">Experience</h2>
+      </SectionWrapper>
 
       <div className='flex flex-col md:flex-row gap-10'>
 
@@ -35,7 +38,7 @@ const Experience = () => {
           <SiPytorch className="text-red-400" />
 
           <FaDocker className="text-blue-400" />
-          <FaGithub className="text-gray-200" /> {/* GitHub is usually white/black */}
+          <FaGithub className="text-gray-200" /> 
 
           <SiAndroidstudio className="text-green-400" />
 
@@ -45,7 +48,7 @@ const Experience = () => {
         <div className='flex flex-col gap-6 w-full'>
 
           <div className='bg-[#171d45] p-4 rounded-lg flex gap-4'>
-            <FcGoogle className="text-3xl" /> {/* already original color */}
+            <FcGoogle className="text-3xl" />
             <div>
               <h2 className='font-bold'>Software Engineer, Google</h2>
               <p className='text-xs'>Worked on web apps using React & Node.js.</p>

@@ -1,2 +1,19 @@
 @import "tailwindcss";
 
+
+:root{
+  --primary-gradient: linear-gradient( red, #dc38be);
+  
+}
+
+.text-gradient {
+  background: var(--primary-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@layer components {
+  .section-title {
+    @apply text-4xl md:text-3xl font-bold mb-6 text-white;
+  }
+}
