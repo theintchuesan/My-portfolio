@@ -7,9 +7,11 @@ const About = () => {
   return (
     <div id="about" className="w-full text-white mt-10 p-6 md:p-10">
 
-      <SectionWrapper>
+     <div className=' flex-col flex justify-center items-center'>
+       <SectionWrapper>
         <h2 className="section-title">About</h2>
       </SectionWrapper>
+     </div>
 
       <div className="flex flex-col md:flex-row gap-10 mt-10 items-center">
 

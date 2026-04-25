@@ -2,7 +2,7 @@
 
 
 :root{
-  --primary-gradient: linear-gradient( red, #dc38be);
+  --primary-gradient: linear-gradient(red, #dc38be);
   
 }
 
@@ -14,6 +14,6 @@
 
 @layer components {
   .section-title {
-    @apply text-4xl md:text-3xl font-bold mb-6 text-white;
+    @apply text-4xl  md:text-3xl font-bold mb-6 text-fuchsia-400;
   }
 }

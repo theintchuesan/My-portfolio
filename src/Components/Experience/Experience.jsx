@@ -8,9 +8,11 @@ const Experience = () => {
   return (
     <div id='experience' className='w-full text-white flex flex-col gap-10 p-6 md:p-10'>
 
-      <SectionWrapper>
+      <div className='flex-col flex justify-center items-center'>
+        <SectionWrapper>
         <h2 className="section-title">Experience</h2>
       </SectionWrapper>
+      </div>
 
       <div className='flex flex-col md:flex-row gap-10'>
 

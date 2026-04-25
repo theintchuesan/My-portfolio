@@ -14,9 +14,11 @@ const Projects = () => {
   return (
     <div id='projects' className='w-full text-white p-6 md:p-10'>
 
-      <SectionWrapper>
+      <div className='flex-col flex justify-center items-center'>
+        <SectionWrapper>
         <h2 className="section-title">Projects</h2>
       </SectionWrapper>
+      </div>
 
       <div className='flex flex-wrap gap-10 mt-6 justify-center relative'>
 

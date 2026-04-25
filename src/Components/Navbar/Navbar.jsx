@@ -9,16 +9,16 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="w-full bg-[#1e063c] text-white flex items-center justify-between px-6 md:px-20 py-4 relative">
+    <nav className="w-full bg-[#1e063c] text-fuchsia-400 flex items-center justify-between px-6 md:px-20 py-4 relative">
 
-      <span className="text-xl font-bold">Portfolio</span>
+      <span className="text-xl font-bold text-white"><span className="text-fuchsia-400">Sofia's</span> Portfolio</span>
 
       {/* Desktop */}
       <ul className="hidden md:flex gap-10 text-lg font-semibold cursor-pointer">
-        <li onClick={() => scrollToSection('about')} className="hover:text-blue-500">About</li>
-        <li onClick={() => scrollToSection('experience')} className="hover:text-blue-500">Experience</li>
-        <li onClick={() => scrollToSection('projects')} className="hover:text-blue-500">Projects</li>
-        <li onClick={() => scrollToSection('contact')} className="hover:text-blue-500">Contact</li>
+        <li onClick={() => scrollToSection('about')} className="hover:text-fuchsia-600">About</li>
+        <li onClick={() => scrollToSection('experience')} className="hover:text-fuchsia-600">Experience</li>
+        <li onClick={() => scrollToSection('projects')} className="hover:text-fuchsia-600">Projects</li>
+        <li onClick={() => scrollToSection('footer')} className="hover:text-fuchsia-600">Contact</li>
       </ul>
 
       {/* Mobile Button */}

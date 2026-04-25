@@ -10,7 +10,7 @@ const Education = () => {
   return (
     <div className="text-white ">
 
-      <div className="p-6">
+      <div className="p-6 justify-center items-center flex">
         <SectionWrapper>
           <h2 className="section-title">Education</h2>
         </SectionWrapper>

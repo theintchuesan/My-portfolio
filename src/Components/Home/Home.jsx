@@ -18,7 +18,7 @@ const Home = () => {
           between user needs and business goals.        </p>
 
         <div className="flex gap-6 mt-6">
-          <button className="mt-5 py-2 px-4 rounded-3xl bg-[#465697] hover:scale-105 duration-300 cursor-pointer ">
+          <button className="mt-5 py-2 px-4 rounded-3xl bg-cyan-500 shadow-lg shadow-cyan-500/50 hover:scale-105 duration-300 cursor-pointer ">
             Contact Me
           </button>
 
@@ -26,7 +26,7 @@ const Home = () => {
           <a
             href="/cv.pdf"
             download
-            className="mt-5 inline-block py-2 px-4 rounded-3xl bg-[#465697] hover:scale-105 duration-300 cursor-pointer"
+            className="mt-5 inline-block py-2 px-4 rounded-3xl bg-cyan-500 shadow-lg shadow-cyan-500/50  hover:scale-105 duration-300 cursor-pointer"
           >
             DOWNLOAD CV
           </a>

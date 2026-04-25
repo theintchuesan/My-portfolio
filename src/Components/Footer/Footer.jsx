@@ -2,9 +2,9 @@ import React from 'react'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { FcGoogle } from 'react-icons/fc'
 
-const Contact = () => {
+const Footer = () => {
   return (
-    <div id='contact' className='w-full text-white bg-[#1e063c] py-10 flex flex-col items-center'>
+    <div id='footer' className='w-full text-white bg-[#1e063c] py-10 flex flex-col items-center'>
 
       <h1 className='section-title'>Contact</h1>
       <p className='mt-2'>Feel free to reach out!</p>
@@ -19,4 +19,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Footer
