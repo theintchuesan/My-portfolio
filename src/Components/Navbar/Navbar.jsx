@@ -9,9 +9,9 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="w-full bg-[#1e063c] text-fuchsia-400 flex items-center justify-between px-6 md:px-20 py-4 relative">
+    <nav className="w-full bg-[#1e063c] text-[#be3658] flex items-center justify-between px-6 md:px-20 py-4 relative">
 
-      <span className="text-xl font-bold text-white"><span className="text-fuchsia-400">Sofia's</span> Portfolio</span>
+      <span className="text-xl font-bold text-white"><span className="text-[#bd3658]">Sofia's</span> Portfolio</span>
 
       {/* Desktop */}
       <ul className="hidden md:flex gap-10 text-lg font-semibold cursor-pointer">
