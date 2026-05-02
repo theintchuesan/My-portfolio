@@ -15,26 +15,26 @@ const Contact = () => {
                 </div>
 
         {/* FORM */}
-                <div>
+                <div className='p-4 sm:p-6 md:p-8'>
                     <form action="post">
 
-                        <div><div className='flex  '>
+                        <div><div className='flex  gap-4'>
                             <div className=" flex flex-col gap-4">
-                                <div className="  w-60">
-                                    <input type="text" id="name" className="bg-[#2a1a4d] border-4 border-amber-600 rounded-md px-4 py-1 text-white placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your Name" />
+                                <div className="  ">
+                                    <input type="text" id="name" className=" w-full bg-[#2a1a4d] border-4 border-fuchsia-200 rounded-md px-4 py-1 text-white placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your Name" />
                                 </div>
                                 <div className=" w-60">
-                                    <input type="email" id="email" className="bg-[#2a1a4d] text-white placeholder:text-gray-500 border-4 border-amber-600 rounded-md px-4 py-1 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your Email" />
+                                    <input type="email" id="email" className=" w-full bg-[#2a1a4d] text-white placeholder:text-gray-500 border-4 border-fuchsia-200 rounded-md px-4 py-1 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your Email" />
                                 </div>
 
                             </div>
 
                             <div className='gap-4 flex flex-col'>
                                 <div className=" w-60">
-                                    <input type="tel" id="phone" className="bg-[#2a1a4d] text-white placeholder:text-gray-500 border-4 border-amber-600 rounded-md px-4 py-1 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Phone Number" />
+                                    <input type="tel" id="phone" className=" w-full bg-[#2a1a4d] text-white placeholder:text-gray-500 border-4 border-fuchsia-200 rounded-md px-4 py-1 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Phone Number" />
                                 </div>
                                 <div className=" w-60">
-                                    <input type="text" id="subject" className="bg-[#2a1a4d] text-white placeholder:text-gray-500 border-4 border-amber-600 rounded-md px-4 py-1 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Subject" />
+                                    <input type="text" id="subject" className=" w-full bg-[#2a1a4d] text-white placeholder:text-gray-500 border-4 border-fuchsia-200 rounded-md px-4 py-1 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Subject" />
                                 </div>
 
 
@@ -45,7 +45,7 @@ const Contact = () => {
 
 
                         <div className="  mt-4">
-                            <textarea id="message" rows={5} className="bg-[#2a1a4d] text-white w-115 placeholder:text-gray-500 border-4 border-amber-600 rounded-md px-4 py-1 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your Message"></textarea>
+                            <textarea id="message" rows={5} className=" w-full bg-[#2a1a4d] text-white placeholder:text-gray-500 border-4 border-fuchsia-200 rounded-md px-4 py-1 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your Message"></textarea>
                         </div>
                     </form>
                 </div>
