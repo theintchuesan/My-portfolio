@@ -23,7 +23,7 @@ const Education = () => {
        
 
         <div className="space-y-10 ">
-<div className="absolute left-14 top-10  sm:left-14 bottom-0 w-[2px] bg-fuchsia-200"></div>
+<div className="absolute left-14 top-10  sm:left-14 bottom-0 w-0.5 bg-fuchsia-200"></div>
           {education.map((edu, index) => (
             <div key={index} className="relative pl-12 sm:pl-12">
 
