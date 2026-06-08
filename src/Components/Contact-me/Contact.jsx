@@ -52,7 +52,7 @@ const handleChange = (e) => {
   });
 };
     return (
-        <div className='p-6 w-full text-white   gap-10 md:p-10' id='contact '>
+        <div  id='contact' className='p-6 w-full text-white   gap-10 md:p-10'>
 
             <div className='w-full h-screen flex-col flex justify-center items-center'>
 
